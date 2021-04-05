@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+body{
+ max-width: 1110px; 
+ margin: 0 auto;  
+}
+.site_one{
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 32px;
+
+
+
+color: #000000;
+}
+
+.site_sec{
+    font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 32px;
+
+
+
+color: #000000;
+}
+
+.sing{
+    font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 4px;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.sing_t{
+    font-family: Fira Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+
+/* Black */
+
+color: #222222;
+
+opacity: 0.7;
+}
+
+.content{
+    padding:15% 0% 15% 0;
+}
+@media (max-width: 992px){
+    .content{
+        padding:25% 0% 25% 0;
+    }
+}
+@media (max-width: 768px){
+    .content{
+        padding:15px 0% 40% 0;
+    } 
+}
+@media (max-width: 560px){
+    .content{
+        padding:15px 0% 15% 0;
+    } 
+}
